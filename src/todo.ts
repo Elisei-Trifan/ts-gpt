@@ -34,7 +34,7 @@ function editTask(ind: number, newText: string) {
 }
 
 function removeTask(ind: number) {
-  todos.splice(ind)
+  todos.splice(ind, 1)
 }
 
 // Взаимодействие с DOM
